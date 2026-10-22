@@ -1,0 +1,8 @@
+pairs = input("Enter key-value pairs: ").split()
+
+d = {}
+
+for i in range(0, len(pairs), 2):
+    d[pairs[i]] = pairs[i + 1]
+
+print("Dictionary:", d)
