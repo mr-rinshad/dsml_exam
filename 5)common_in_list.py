@@ -1,0 +1,11 @@
+list1 = input("Enter elements of first list: ").split()
+list2 = input("Enter elements of second list: ").split()
+
+common = False
+
+for item in list1:
+    if item in list2:
+        common = True
+        break
+
+print("Have common member:", common)
